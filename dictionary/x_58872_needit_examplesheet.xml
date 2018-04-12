@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Examplesheet" max_length="40" name="x_58872_needit_examplesheet" type="collection">
+        <element attributes="import_attribute_name=Element,edge_encryption_enabled=true" label="Element" max_length="40" name="u_element" type="string"/>
+        <element attributes="import_attribute_name=Label,edge_encryption_enabled=true" label="Label" max_length="40" name="u_label" type="string"/>
+        <element attributes="import_attribute_name=Language,edge_encryption_enabled=true" label="Language" max_length="40" name="u_language" type="string"/>
+        <element attributes="import_attribute_name=Sequence" label="Sequence" max_length="40" name="u_sequence" type="integer"/>
+        <element attributes="import_attribute_name=Table,edge_encryption_enabled=true" label="Table" max_length="40" name="u_table" type="string"/>
+        <element attributes="import_attribute_name=Value,edge_encryption_enabled=true" label="Value" max_length="40" name="u_value" type="string"/>
+    </element>
+</database>
