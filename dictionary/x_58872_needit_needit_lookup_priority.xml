@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="NeedIt_Lookup_Priority" max_length="40" name="x_58872_needit_needit_lookup_priority" type="collection">
+        <element label="Impact" max_length="40" name="impact" type="integer"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element label="Urgency" max_length="40" name="urgency" type="integer"/>
+    </element>
+</database>
